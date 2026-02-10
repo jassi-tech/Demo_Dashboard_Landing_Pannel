@@ -1,0 +1,14 @@
+rank,country_code,country,city_code,city,lat,lng,population
+1,392,Japan,21671,Tokyo,35.6895,139.6917,37
+2,356,India,21228,Delhi,28.6667,77.2167,30
+3,156,China,20656,Shanghai,31.2222,121.4581,27
+4,76,Brazil,20287,São Paulo,-23.5475,-46.6361,22
+5,484,Mexico,21853,Ciudad de México (Mexico City),19.4273,-99.1419,22
+6,50,Bangladesh,20119,Dhaka,23.7104,90.4074,21
+7,818,Egypt,22812,Al-Qahirah (Cairo),30.0392,31.2394,21
+8,156,China,20464,Beijing,39.9075,116.3972,20
+9,356,India,21206,Mumbai (Bombay),19.0740,72.8808,20
+10,392,Japan,206459,Kinki M.M.A. (Osaka),34.6758,135.5538,19
+11,840,United States of America,23083,New York-Newark,40.7170,-74.0037,19
+12,586,Pakistan,22044,Karachi,24.9056,67.0822,16
+13,156,China,20484,Chongqing,29.5628,106.5528,16
