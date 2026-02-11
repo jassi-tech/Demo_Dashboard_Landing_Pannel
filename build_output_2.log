@@ -1,0 +1,45 @@
+
+> mantine-analytics-dashboard@1.0.1 build
+> next build
+
+  ▲ Next.js 14.2.35
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/25) ...
+   Generating static pages (6/25) 
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (/home/user/Desktop/task_project /Demo_dashboard/.next/server/app/authentication/clerk/page.js:124:1749)
+    at /home/user/Desktop/task_project /Demo_dashboard/.next/server/app/authentication/clerk/page.js:78:38028
+    at nj (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46252)
+    at nM (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47572)
+    at nL (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+    at nI (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47011)
+    at nM (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47718)
+    at nL (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+    at nM (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61157)
+    at nL (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547) {
+  digest: '2719375225'
+}
+
+Error occurred prerendering page "/authentication/clerk". Read more: https://nextjs.org/docs/messages/prerender-error
+
+Error: @clerk/nextjs: Missing publishableKey. You can get your key at https://dashboard.clerk.com/last-active?path=api-keys.
+    at Object.throwMissingPublishableKeyError (/home/user/Desktop/task_project /Demo_dashboard/.next/server/app/authentication/clerk/page.js:124:1749)
+    at /home/user/Desktop/task_project /Demo_dashboard/.next/server/app/authentication/clerk/page.js:78:38028
+    at nj (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46252)
+    at nM (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47572)
+    at nL (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+    at nI (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47011)
+    at nM (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47718)
+    at nL (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+    at nM (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61157)
+    at nL (/home/user/Desktop/task_project /Demo_dashboard/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64547)
+   Generating static pages (12/25) 
+   Generating static pages (18/25) 
+ ✓ Generating static pages (25/25)
+
+> Export encountered errors on following paths:
+	/authentication/clerk/page: /authentication/clerk

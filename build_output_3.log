@@ -1,0 +1,53 @@
+
+> mantine-analytics-dashboard@1.0.1 build
+> next build
+
+  ▲ Next.js 14.2.35
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/25) ...
+   Generating static pages (6/25) 
+   Generating static pages (12/25) 
+   Generating static pages (18/25) 
+ ✓ Generating static pages (25/25)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    8.4 kB          494 kB
+├ ○ /_not-found                          143 B          87.8 kB
+├ ƒ /api/auth/[...nextauth]              0 B                0 B
+├ ○ /apps/calendar                       79.6 kB         550 kB
+├ ○ /apps/chat                           13.1 kB         484 kB
+├ ○ /apps/invoices/details               1.99 kB         473 kB
+├ ƒ /apps/invoices/details/[id]          1.51 kB         472 kB
+├ ○ /apps/invoices/list                  1.52 kB         472 kB
+├ ○ /apps/orders                         1.51 kB         472 kB
+├ ○ /apps/profile                        5.35 kB         476 kB
+├ ○ /apps/projects                       1.57 kB         472 kB
+├ ○ /apps/settings                       4.75 kB         480 kB
+├ ○ /apps/tasks                          1.73 kB         551 kB
+├ ○ /authentication/auth0                5.24 kB         116 kB
+├ ○ /authentication/clerk                22.9 kB         186 kB
+├ ○ /authentication/password-reset       1.26 kB         472 kB
+├ ○ /authentication/signin               3.48 kB         479 kB
+├ ○ /authentication/signup               3.33 kB         474 kB
+├ ○ /dashboard/analytics                 2.99 kB         474 kB
+├ ○ /dashboard/default                   2.92 kB         474 kB
+├ ○ /dashboard/saas                      2.89 kB         473 kB
+├ ○ /pages/about                         2.63 kB         473 kB
+├ ○ /pages/blank                         1.41 kB         472 kB
+└ ○ /pages/pricing                       3.33 kB         474 kB
++ First Load JS shared by all            87.7 kB
+  ├ chunks/2117-9c97c0f1ff3bff13.js      31.9 kB
+  ├ chunks/fd9d1056-e61d6f77fbce3bd2.js  53.6 kB
+  └ other shared chunks (total)          2.15 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

@@ -30,8 +30,8 @@ function Page() {
 
     // functions will be used to validate values at corresponding key
     validate: {
-      email: (value) => (/^\S+@\S+$/.test(value) ? null : 'Invalid email'),
-      password: (value) =>
+      email: (value: string) => (/^\S+@\S+$/.test(value) ? null : 'Invalid email'),
+      password: (value: string) =>
         value && value?.length < 6
           ? 'Password must include at least 6 characters'
           : null,
